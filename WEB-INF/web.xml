@@ -15,10 +15,10 @@
         	<servlet-name>firsttry</servlet-name>
         	<servlet-class>/firsttry</servlet-class>
     	</servlet>
-
+<! -- and ends with 
     <servlet-mapping>
         <servlet-name>firsttry</servlet-name>
         <url-pattern>/*</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
 
 </web-app>
