@@ -7,18 +7,20 @@
     <display-name>Imena Esmaul-Husna</display-name>
     <description>Imena Esmaul-Husna app.</description>
 
-	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
-	</welcome-file-list>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
 
-	<servlet>
-        	<servlet-name>firsttry</servlet-name>
-        	<servlet-class>/firsttry</servlet-class>
-    	</servlet>
+    <servlet>
+        <servlet-name>firsttry</servlet-name>
+        <!-- Ovdje ide puna kvalifikacija servlet klase -->
+        <servlet-class>FirstTryServlet</servlet-class>
+    </servlet>
 
-    	<servlet-mapping>
-        	<servlet-name>firsttry</servlet-name>
-        	<url-pattern>/*</url-pattern>
-    	</servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>firsttry</servlet-name>
+        <!-- Ovo mapira servlet na specifičnu putanju -->
+        <url-pattern>/firsttry</url-pattern>
+    </servlet-mapping>
 
 </web-app>
