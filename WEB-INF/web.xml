@@ -14,7 +14,7 @@
     <servlet>
         <servlet-name>firsttry</servlet-name>
         <!-- Ovdje ide puna kvalifikacija servlet klase -->
-        <servlet-class>FirstTryServlet</servlet-class>
+        <servlet-class>firsttry</servlet-class>
     </servlet>
 
     <servlet-mapping>
